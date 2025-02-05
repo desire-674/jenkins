@@ -1,5 +1,6 @@
 # Use a stable Tomcat image from Docker Hub
-FROM tomcat:9-jdk17-temurin
+FROM tomcat:9.0-jdk8
+
 
 # Set working directory
 WORKDIR /usr/local/tomcat/webapps/
